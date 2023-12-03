@@ -48,7 +48,7 @@ export default function Index() {
                 <img src="https://i.pinimg.com/736x/72/c6/7a/72c67af70b9c14f254e4d56125b99873.jpg" className="max-h-64 sm:max-h-80 max-w-[196px] sm:max-w-[256px] md:max-w-xs md:mx-0" alt="Book Image" />
                 <h2 className="capitalize font-bold text-lg">{book.name}</h2>
                 <p className="text-gray-500">{book.author}</p>
-                <Link to={'/'} className="hover:underline decoration-2 decoration-amber-500 text-gray-700 max-w-fit text-xs font-medium capitalize">{book.genre}</Link>
+                <div className="hover:underline decoration-2 decoration-amber-500 text-gray-700 max-w-fit text-xs font-medium capitalize">{book.genre}</div>
               </Link>
             </li>
           ))}
